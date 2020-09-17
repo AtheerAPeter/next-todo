@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form {
+  width: 100%;
+  margin: 20px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form input {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  outline: none;
+  border-radius: 50px;
+  background-color: #e4e4e6;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.container .form input:focus {
+  border: 3px solid #7696ee;
+}
+
+.container .form button {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  height: 100%;
+  width: 50px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: #7696ee;
+  color: white;
+}
+
+.list {
+  background-color: #e4e4e6;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list .list-items {
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.list .list-items p {
+  font-size: 20px;
+}
+
+.list .list-items button {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  height: 100%;
+  width: 50px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: #d85c5c;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
